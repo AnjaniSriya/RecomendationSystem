@@ -53,9 +53,9 @@ My project is the third problem statement - Algorithms. Through my project, I pr
 Content-based recommendation system makes recommendations based on item metadata such as genre, director, description, actors, and so on. The main premise underlying these recommender systems is that if a person likes one item, he or she will also enjoy a similar item.
  
 The following are the approaches I implemented in this project.
-* APPROACH 1 : Weighted_rating:
-* APPROACH 2 : Rapid Automation Keyword Extraction (RAKE)  
-* APPROACH 3 : Bidirectional Encoder Representations from Transformers (BERT) model
+* APPROACH 1 : Using Weighted_rating
+* APPROACH 2 : Using Rapid Automation Keyword Extraction (RAKE)  
+* APPROACH 3 : Using pre-trained Bidirectional Encoder Representations from Transformers (BERT) model
 
 
 ### Built With
