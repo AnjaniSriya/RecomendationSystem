@@ -51,14 +51,9 @@ My project is the third problem statement - Algorithms. Through my project, I pr
 Content-based recommendation system makes recommendations based on item metadata such as genre, director, description, actors, and so on. The main premise underlying these recommender systems is that if a person likes one item, he or she will also enjoy a similar item.
  
 The following are the approaches I implemented in this project.
-* APPROACH-1 : Weighted_rating:
-  The underlying premise behind this recommender is that movies that are more popular and critically acclaimed are more likely to be loved by the general public. This model does not provide user-specific recommendations. We use a formula followed by IMDB to generate it's TOP250 movies.
-  
-* APPROACH-2 : Weighted_rating:
-You shouldn't be doing the same tasks over and over like creating a README from scratch
-* APPROACH-3 : Weighted_rating:
-
-
+* APPROACH 1 : Weighted_rating:
+* APPROACH 2 : Rapid Automation Keyword Extraction (RAKE)  
+* APPROACH 3 : Bidirectional Encoder Representations from Transformers (BERT) model
 
 
 ### Built With
@@ -77,8 +72,16 @@ This section includes a list of platforms, frameworks and libraries that were ut
 <!-- SCREENSHOTS -->
 ## Screenshots
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+<h3> Results of Approach 2 for the movie 102 Dalmatians </h3>
+
+![image](https://user-images.githubusercontent.com/73774152/170868728-38434098-743d-46fc-ba5e-aeeb3b14d882.png)
+
+
+<h3> Results of Approach 3 for the movie 102 Dalmatians </h3>
+
+![image](https://user-images.githubusercontent.com/73774152/170868760-09107730-5efc-46f2-b02a-4eddc261f01a.png)
+
+
 
 
 <!-- CONTACT -->
