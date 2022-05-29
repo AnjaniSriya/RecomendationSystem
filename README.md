@@ -1,9 +1,7 @@
 # Microsoft Enagage 2022 - Algorithms
-# Recommendation System - Disney Plus Shows
 
-<div id="top">
- 
-</div>
+<h3> Recommendation System - Disney Plus Shows </h3>
+
 
 <!-- PROJECT LOGO -->
 <br />
@@ -11,15 +9,17 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="Disney.png" alt="Logo">
   </a>
-  <p align="center">
-    An awesome README template to jumpstart your projects!
+ </div>
+ <div align="center">
+<p align="center">
+We use the Disney Plus Shows dataset 
     <br />
     <a href=https://github.com/AnjaniSriya/RecommendationSystem/blob/master/disney_plus_shows.csv><strong>Explore the dataset »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://share.streamlit.io/anjanisriya/recomendationsystem/index.py">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Video Demo</a>
+    <a href="#">Video Demo</a>
   </p>
 </div>
 
@@ -36,18 +36,9 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+      <a href="#getting-started">Screenshots</a>
+    </li>    
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -56,137 +47,48 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+My project is the third problem statement - Algorithms. Through my project, I presented the various types of algorithms that a web-streaming service (such as Netflix) might use for their Recommendation Engine. We can create a Recommendation Engine in a variety of methods. My project is a Content-based Recommendation System.
+Content-based recommendation system makes recommendations based on item metadata such as genre, director, description, actors, and so on. The main premise underlying these recommender systems is that if a person likes one item, he or she will also enjoy a similar item.
+ 
+The following are the approaches I implemented in this project.
+* APPROACH-1 : Weighted_rating:
+  The underlying premise behind this recommender is that movies that are more popular and critically acclaimed are more likely to be loved by the general public. This model does not provide user-specific recommendations. We use a formula followed by IMDB to generate it's TOP250 movies.
+  
+* APPROACH-2 : Weighted_rating:
+You shouldn't be doing the same tasks over and over like creating a README from scratch
+* APPROACH-3 : Weighted_rating:
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section includes a list of platforms, frameworks and libraries that were utilised to create this project.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+* [Streamlit](https://docs.streamlit.io/)
+* [Google Colab](https://research.google.com/colaboratory/)
+* [Python](https://www.python.org/)
+* [rake-nlkt](https://pypi.org/project/rake-nltk/)
+* [Scikit-learn](https://scikit-learn.org/stable/)
+* [BERT-Distilled BERT](https://huggingface.co/docs/transformers/model_doc/distilbert)
+* [pickle](https://docs.python.org/3/library/pickle.html)
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- SCREENSHOTS -->
+## Screenshots
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- PROJECT -->
-## Project
-
-Code Link: [Recommendation System](https://github.com/AnjaniSriya/RecommendationSystem)
-
-Demo Link: [Disney Recommendation System](https://share.streamlit.io/anjanisriya/recomendationsystem/index.py)
-
 
 
 <!-- CONTACT -->
 ## Contact
 
 Pesala Anjani Sriya 
+
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/anjani-sriya-p/)
 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
